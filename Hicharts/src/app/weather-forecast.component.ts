@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import * as Highcharts from "highcharts";
-import {WeatherService} from "./weather.service";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 
 @Component({
@@ -19,7 +18,7 @@ export class WeatherForecastComponent implements OnInit {
     }
   };
 
-  constructor(private weatherService: WeatherService, private http: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
      this.http.get<any[]>(`http://localhost:57432/${this.url}`, {
