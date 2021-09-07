@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "u/Qgg51MdBgtuToTbccFEjK2JQ2TKuvuYtk0OuTfre/dmaWWOA415jsAvFQB3hvDz9LVkjZki5AIt/NnAihNIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felix.RAINOVICH\\Code\\2021\\GitHicharts\\ApiServer\\ApiServer\\ApiServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\felix.RAINOVICH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
