@@ -7,8 +7,6 @@ import {HttpClient, HttpHeaders} from "@angular/common/http";
 })
 export class WeatherForecastComponent implements OnInit {
   highcharts: typeof Highcharts = Highcharts;
-  url = 'WeatherForecast';
-
   chartOptions: Highcharts.Options = {
     title: {
       text: "Weather"
@@ -21,7 +19,7 @@ export class WeatherForecastComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-     this.http.get<any[]>(`http://localhost:57432/${this.url}`, {
+     this.http.get<any[]>(`http://localhost:57432/WeatherForecast`, {
       headers: new HttpHeaders({
         "Content-Type": "application/json"
       })})
