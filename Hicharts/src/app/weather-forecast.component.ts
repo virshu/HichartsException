@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import * as Highcharts from "highcharts";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 
@@ -19,11 +19,10 @@ export class WeatherForecastComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-     this.http.get<any[]>(`http://localhost:57432/WeatherForecast`, {
+     this.http.get<any[]>(`https://polk-api.atimsonline.com/WeatherForecast/`, {
       headers: new HttpHeaders({
         "Content-Type": "application/json"
-      })})
-      .subscribe(result => {
+      })}).subscribe(result => {
         let categories: string[] = [];
         let dataSeries: number[] = [];
         for (let i = 0; i < result.length; i++) {
@@ -43,5 +42,4 @@ export class WeatherForecastComponent implements OnInit {
         console.log(error);
       });
   }
-
 }
