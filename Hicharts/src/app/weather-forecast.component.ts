@@ -7,6 +7,8 @@ import {DataService} from "./data.service";
 })
 export class WeatherForecastComponent implements OnInit {
   highcharts: typeof Highcharts = Highcharts;
+  updateFlag = false;
+  oneToOne = true;
   chartOptions: Highcharts.Options = {
     title: {
       text: "Weather"
@@ -34,7 +36,8 @@ export class WeatherForecastComponent implements OnInit {
           name: "Cities",
           data: dataSeries
         }];
-        this.highcharts.chart('container', this.chartOptions);
+        //this.highcharts.chart('container', this.chartOptions);
+       this.updateFlag = true;
       }, error => {
         console.log(error);
       });
